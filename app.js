@@ -25,6 +25,7 @@ const resetGame = () => {
   enableBoxes();
   msgContainer.classList.add("hide");
   resetBtn.classList.add("hide");
+  box.style = 'background-color: #ffffc7;';
 };
 
 boxes.forEach((box) => {
